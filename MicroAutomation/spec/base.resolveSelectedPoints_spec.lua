@@ -1,0 +1,121 @@
+-- @noindex
+
+-- describe("resolveSelectedPoints", function()
+--   local TLA = require "include.TLA_base"
+--   it("should return nil for 1s", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = true}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return nil for 1u", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return nil for 5x", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false},
+--       [1] = {time = 0.5, selected = false},
+--       [2] = {time = 0.5, selected = false},
+--       [3] = {time = 0.5, selected = false},
+--       [4] = {time = 0.5, selected = false}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return 2s", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = true},
+--       [1] = {time = 0.6, selected = true}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, '2s')
+--   end)
+
+--   it("should return 2u", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false},
+--       [1] = {time = 0.6, selected = false}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, '2u')
+--   end)
+
+--   it("should return nil for 2x", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = true},
+--       [1] = {time = 0.6, selected = false}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return nil for 2x", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false},
+--       [1] = {time = 0.6, selected = true}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return nil for 3x", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = true},
+--       [1] = {time = 0.6, selected = true},
+--       [2] = {time = 0.6, selected = true}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return nil for 3x", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false},
+--       [1] = {time = 0.6, selected = true},
+--       [2] = {time = 0.6, selected = true}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+
+--   it("should return 4s", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = true},
+--       [1] = {time = 0.6, selected = true},
+--       [2] = {time = 0.6, selected = true},
+--       [3] = {time = 0.6, selected = true}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, '4s')
+--   end)
+
+--   it("should return 4u", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false},
+--       [1] = {time = 0.6, selected = false},
+--       [2] = {time = 0.6, selected = false},
+--       [3] = {time = 0.6, selected = false}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, '4u')
+--   end)
+
+--   it("should return nil for 4x", function ()
+--     local input = {
+--       [0] = {time = 0.5, selected = false},
+--       [1] = {time = 0.6, selected = true},
+--       [2] = {time = 0.6, selected = false},
+--       [3] = {time = 0.6, selected = false}
+--     }
+--     local result = TLA.resolveSelectedPoints(input)
+--     assert.are.equal(result, nil)
+--   end)
+-- end)
