@@ -1,3 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
-<index version="1" name="The Last Axe Studio Scripts" commit="c1fb12e9a6cda44fae306d0877f761905b764043">
-</index>
+<index version="1" name="The Last Axe Studio Scripts" commit="0b6e30d5dd573e107319c445f10ae607e010bad1">
+<category name="MicroAutomation"><reapack name="TLA_MicroAutomation_Adjust_offset.lua" type="script" desc="TLA_MicroAutomation_Adjust_offset"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Adjust the offset of the two inner points of a four-point envelope. Reads input from midi value (rotary encoder).\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Adjust_offset.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Attenuate_first_inner_point.lua" type="script" desc="TLA_MicroAutomation_Attenuate_first_inner_point"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Attenuate the first inner point of a four-point envelope. Reads input from midi value (rotary encoder).\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Attenuate_first_inner_point.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Attenuate_last_inner_point.lua" type="script" desc="TLA_MicroAutomation_Attenuate_last_inner_point"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Attenuate the last inner point of a four-point envelope. Reads input from midi value (rotary encoder).\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Attenuate_last_inner_point.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Create.lua" type="script" desc="TLA_MicroAutomation_Create"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Create or adjust a four-point envelope based on selection. Reads input from midi value (rotary encoder).\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Create.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Shift_closing_points_left.lua" type="script" desc="TLA_MicroAutomation_Shift_closing_points_left"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Bump closing points of a four-point selection to the left by 0.01 seconds. Meant to be used with midi pad input.\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Shift_closing_points_left.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Shift_closing_points_right.lua" type="script" desc="TLA_MicroAutomation_Shift_closing_points_right"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Bump closing points of a four-point selection to the right by 0.01 seconds. Meant to be used with midi pad input.\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Shift_closing_points_right.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Shift_opening_points_left.lua" type="script" desc="TLA_MicroAutomation_Shift_opening_points_left"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Bump opening points of a four-point selection to the left by 0.01 seconds. Meant to be used with midi pad input.\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Shift_opening_points_left.lua</source></version></reapack><reapack name="TLA_MicroAutomation_Shift_opening_points_right.lua" type="script" desc="TLA_MicroAutomation_Shift_opening_points_right"><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 Bump opening points of a four-point selection to the right by 0.01 seconds. Meant to be used with midi pad input.\par}
+}
+]]></description></metadata><version name="1.0.0" author="Aaron Fay - The Last Axe Studio" time="2023-04-04T03:52:55Z"><changelog><![CDATA[Initial version.]]></changelog><source main="main">https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/TLA_MicroAutomation_Shift_opening_points_right.lua</source></version></reapack></category><category name="MicroAutomation/include"><reapack name="TLA_base.lua" type="script" desc="The Last Axe Helpers"><version name="1.0.0" time="2023-04-04T03:52:55Z"><source>https://github.com/thelastaxestudio/reascripts/raw/0b6e30d5dd573e107319c445f10ae607e010bad1/MicroAutomation/include/TLA_base.lua</source></version></reapack></category><metadata><description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
+{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
+\widowctrl\hyphauto
+
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Install\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 ReaPack index file is available here:\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 https://raw.githubusercontent.com/thelastaxestudio/reascripts/stable/index.xml\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 Micro automation scripts\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 The MicroAutomation scripts are tailored around tweaking envelopes in Reaper, without the need for the mouse.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Scripts for use with rotary encoders\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 TLA_MicroAutomation_Create\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Creates a four-point envelope with offset inner points on the selected envelope and attenuates it based on the input value of the rotary encoder (between 0 and 127). If four selected or unselected points exist within the selection, the script will select and attenuate those points, otherise the script will clear any points within the selection and create a new four-point selection to attenuate.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: docs/gifs/TLA_MicroAutomation_Create.gif]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 TLA_Adjust_offset\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Adjusts the offset of the inner points in a four-point envelope.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: docs/gifs/TLA_MicroAutomation_Adjust_offset.gif]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 TLA_Attenuate_first_inner_point\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Adjust only the value of the first inner point, for creating an ascending or descending envelope.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: docs/gifs/TLA_MicroAutomation_Attenuate_first_inner_point.gif]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 TLA_Attenuate_last_inner_point\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Adjust only the value of the last inner point, for creating an ascending or descending envelope.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: docs/gifs/TLA_MicroAutomation_Attenuate_last_inner_point.gif]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Scripts for use with pads (or as simple actions)\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 TLA_Shift_opening_points_left & TLA_Shift_opening_points_right\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Jog the first two points of a four-point envelope to the left or right.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: docs/gifs/TLA_MicroAutomation_Shift_opening_points.gif]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs28 TLA_Shift_closing_points_left & TLA_Shift_closing_points_right\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Jog the last two points of a four-point envelope to the left or right.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 {\cf1 [image: docs/gifs/TLA_MicroAutomation_Shift_closing_points.gif]\cf0}\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Support\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 Found an issue? Message me at {\f1 thelastaxe} on Discord, or file an issue with this repo.\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs32 Run unit tests\par}
+{\pard \ql \f0 \sa180 \li0 \fi0 \f1 docker run --rm -it -v $\{PWD\}/the-last-axe:/data -e 'LUA_PATH=/data/?.lua'  imega/busted\par}
+}
+]]></description></metadata></index>
